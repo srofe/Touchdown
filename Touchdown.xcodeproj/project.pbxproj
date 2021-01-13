@@ -15,6 +15,7 @@
 		F4AD126425AFB2F8008B7F2C /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = F4AD126025AFB2F8008B7F2C /* category.json */; };
 		F4AD126525AFB2F8008B7F2C /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = F4AD126125AFB2F8008B7F2C /* brand.json */; };
 		F4AD126625AFB2F8008B7F2C /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = F4AD126225AFB2F8008B7F2C /* player.json */; };
+		F4AD127425AFB58B008B7F2C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD127325AFB58B008B7F2C /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F4AD126025AFB2F8008B7F2C /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
 		F4AD126125AFB2F8008B7F2C /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		F4AD126225AFB2F8008B7F2C /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
+		F4AD127325AFB58B008B7F2C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		F4AD127225AFB528008B7F2C /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				F4AD127325AFB58B008B7F2C /* Constant.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			files = (
 				F4AD125225AFB0C6008B7F2C /* ContentView.swift in Sources */,
 				F4AD125025AFB0C6008B7F2C /* TouchdownApp.swift in Sources */,
+				F4AD127425AFB58B008B7F2C /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
