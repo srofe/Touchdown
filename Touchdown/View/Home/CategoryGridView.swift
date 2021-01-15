@@ -11,7 +11,10 @@ struct CategoryGridView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHGrid(rows: girdLayout, alignment: .center, spacing: columnSpacing, pinnedViews: []) {
-                Section(header: Text("HEADER"), footer: Text("FOOTER")) {
+                Section(
+                    header: SectionView(),
+                    footer: SectionView(textDirectionDown: true)
+                ) {
                     ForEach(categories) { category in
                         CategoryItemView(cateogry: category)
                     }
