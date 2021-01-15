@@ -9,8 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        FooterView()
-            .padding(.horizontal)
+        VStack(spacing: 0) {
+            Spacer()
+            FooterView()
+                .padding(.horizontal)
+        }
+        .background(colourBackground.ignoresSafeArea(.all, edges: .all))
     }
 }
 
