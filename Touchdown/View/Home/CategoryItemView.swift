@@ -19,8 +19,17 @@ struct CategoryItemView: View {
                     .scaledToFit()
                     .frame(width: 30, height: 30, alignment: .center)
                     .foregroundColor(.gray)
-                Text("Button")
+                Text(cateogry.name.uppercased())
+                    .fontWeight(.light)
+                    .foregroundColor(.gray)
+                Spacer()
             }
+            .padding()
+            .background(Color.white.cornerRadius(12))
+            .background(
+                RoundedRectangle(cornerRadius: 12)
+                    .stroke(Color.gray, lineWidth: 1)
+            )
         }
     }
 }
