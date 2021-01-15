@@ -16,6 +16,8 @@ struct NavigationBarView: View {
                     .foregroundColor(.black)
             }
             Spacer()
+            LogoView()
+            Spacer()
             Button(action: {}) {
                 ZStack {
                     Image(systemName: "cart")
