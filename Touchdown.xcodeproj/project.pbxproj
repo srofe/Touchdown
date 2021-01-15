@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F45B001025B1BE4D0030024D /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B000F25B1BE4D0030024D /* NavigationBarView.swift */; };
 		F45B001325B1BFDA0030024D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B001225B1BFDA0030024D /* LogoView.swift */; };
+		F45B001825B1C6270030024D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B001725B1C6270030024D /* Player.swift */; };
 		F4AD125025AFB0C6008B7F2C /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD124F25AFB0C6008B7F2C /* TouchdownApp.swift */; };
 		F4AD125225AFB0C6008B7F2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD125125AFB0C6008B7F2C /* ContentView.swift */; };
 		F4AD125425AFB0C6008B7F2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AD125325AFB0C6008B7F2C /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		F45B000F25B1BE4D0030024D /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		F45B001225B1BFDA0030024D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		F45B001725B1C6270030024D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		F4AD124C25AFB0C6008B7F2C /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4AD124F25AFB0C6008B7F2C /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		F4AD125125AFB0C6008B7F2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		F4AD127025AFB500008B7F2C /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F45B001725B1C6270030024D /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				F45B001325B1BFDA0030024D /* LogoView.swift in Sources */,
 				F4F404ED25B1BA09002CA0C7 /* FooterView.swift in Sources */,
 				F4AD125025AFB0C6008B7F2C /* TouchdownApp.swift in Sources */,
+				F45B001825B1C6270030024D /* Player.swift in Sources */,
 				F4AD127425AFB58B008B7F2C /* Constant.swift in Sources */,
 				F45B001025B1BE4D0030024D /* NavigationBarView.swift in Sources */,
 			);
