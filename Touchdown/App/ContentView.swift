@@ -10,6 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack(spacing: 0) {
+            NavigationBarView()
+                .padding()
+                .background(Color.white)
+                .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
             Spacer()
             FooterView()
                 .padding(.horizontal)
