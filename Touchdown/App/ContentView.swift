@@ -18,9 +18,10 @@ struct ContentView: View {
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 ScrollView(.vertical, showsIndicators: false) {
-                    FeateredTabView()
-                        .padding(.vertical, 20)
                     VStack(spacing: 10) {
+                        FeateredTabView()
+                            .padding(.vertical, 20)
+                        CategoryGridView()
                         FooterView()
                             .padding(.horizontal)
                     }
