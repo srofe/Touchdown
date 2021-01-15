@@ -11,7 +11,17 @@ struct CategoryItemView: View {
     let cateogry: Category
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {}) {
+            HStack(alignment: .center, spacing: 6) {
+                Image(cateogry.image)
+                    .renderingMode(.template)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 30, height: 30, alignment: .center)
+                    .foregroundColor(.gray)
+                Text("Button")
+            }
+        }
     }
 }
 
