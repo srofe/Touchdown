@@ -22,6 +22,13 @@ struct ContentView: View {
                         FeateredTabView()
                             .padding(.vertical, 20)
                         CategoryGridView()
+                        TitleView(title: "Helmets")
+                        LazyVGrid(columns: girdLayout) {
+                            ForEach(products) { product in
+                                ProductItemView(product: product)
+                            }
+                        }
+                        .padding(15)
                         FooterView()
                             .padding(.horizontal)
                     }
