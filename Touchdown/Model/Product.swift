@@ -13,5 +13,5 @@ struct Product: Codable, Identifiable {
     let image: String
     let price: Int
     let description: String
-    let colour: [Double]
+    let color: [Double]
 }
