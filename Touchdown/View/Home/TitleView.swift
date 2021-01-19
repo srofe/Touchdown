@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct TitleView: View {
+    var title: String
+
     var body: some View {
         HStack {
-            Text("Helmet")
+            Text(title)
                 .font(.largeTitle)
                 .fontWeight(.heavy)
+            Spacer()
         }
         .padding(.horizontal)
         .padding(.top, 15)
@@ -22,7 +25,7 @@ struct TitleView: View {
 
 struct TitleView_Previews: PreviewProvider {
     static var previews: some View {
-        TitleView()
+        TitleView(title: "Helmet")
             .previewLayout(.sizeThatFits)
             .background(colourBackground)
     }
