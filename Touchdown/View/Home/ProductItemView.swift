@@ -20,6 +20,12 @@ struct ProductItemView: View {
             }
             .background(Color(red: product.color[0], green: product.color[1], blue: product.color[2]))
             .cornerRadius(12)
+            Text(product.name)
+                .font(.title3)
+                .fontWeight(.black)
+            Text("$\(product.price)")
+                .fontWeight(.semibold)
+                .foregroundColor(.gray)
         }
     }
 }
