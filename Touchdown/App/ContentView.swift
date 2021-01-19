@@ -22,6 +22,7 @@ struct ContentView: View {
                         FeateredTabView()
                             .padding(.vertical, 20)
                         CategoryGridView()
+                        TitleView(title: "Helmets")
                         FooterView()
                             .padding(.horizontal)
                     }
