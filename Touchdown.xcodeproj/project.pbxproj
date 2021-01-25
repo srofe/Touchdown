@@ -32,6 +32,7 @@
 		F4F23DD025BEE75D00729FBA /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DCF25BEE75D00729FBA /* Brand.swift */; };
 		F4F23DD325BEE80500729FBA /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DD225BEE80500729FBA /* BrandItemView.swift */; };
 		F4F23DD625BEE8E700729FBA /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DD525BEE8E700729FBA /* BrandGridView.swift */; };
+		F4F23DDB25BEEB2900729FBA /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DDA25BEEB2900729FBA /* ProductDetailView.swift */; };
 		F4F404ED25B1BA09002CA0C7 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F404EC25B1BA09002CA0C7 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		F4F23DCF25BEE75D00729FBA /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		F4F23DD225BEE80500729FBA /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
 		F4F23DD525BEE8E700729FBA /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
+		F4F23DDA25BEEB2900729FBA /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		F4F404EC25B1BA09002CA0C7 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,6 +135,7 @@
 			children = (
 				F4AD124F25AFB0C6008B7F2C /* TouchdownApp.swift */,
 				F4AD125125AFB0C6008B7F2C /* ContentView.swift */,
+				F4F23DDA25BEEB2900729FBA /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				F45B002125B1C8EC0030024D /* FeateredTabView.swift in Sources */,
 				F4F23DD625BEE8E700729FBA /* BrandGridView.swift in Sources */,
 				F48B43B925B69B6100D22021 /* ProductItemView.swift in Sources */,
+				F4F23DDB25BEEB2900729FBA /* ProductDetailView.swift in Sources */,
 				F45B001E25B1C8280030024D /* FeaturedItemView.swift in Sources */,
 				F4AD125025AFB0C6008B7F2C /* TouchdownApp.swift in Sources */,
 				F489F18925B25106006CBA98 /* CategoryGridView.swift in Sources */,
