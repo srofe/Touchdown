@@ -29,6 +29,9 @@
 		F4AD126525AFB2F8008B7F2C /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = F4AD126125AFB2F8008B7F2C /* brand.json */; };
 		F4AD126625AFB2F8008B7F2C /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = F4AD126225AFB2F8008B7F2C /* player.json */; };
 		F4AD127425AFB58B008B7F2C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4AD127325AFB58B008B7F2C /* Constant.swift */; };
+		F4F23DD025BEE75D00729FBA /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DCF25BEE75D00729FBA /* Brand.swift */; };
+		F4F23DD325BEE80500729FBA /* BrandItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DD225BEE80500729FBA /* BrandItemView.swift */; };
+		F4F23DD625BEE8E700729FBA /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F23DD525BEE8E700729FBA /* BrandGridView.swift */; };
 		F4F404ED25B1BA09002CA0C7 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F404EC25B1BA09002CA0C7 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		F4AD126125AFB2F8008B7F2C /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
 		F4AD126225AFB2F8008B7F2C /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 		F4AD127325AFB58B008B7F2C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		F4F23DCF25BEE75D00729FBA /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		F4F23DD225BEE80500729FBA /* BrandItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandItemView.swift; sourceTree = "<group>"; };
+		F4F23DD525BEE8E700729FBA /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
 		F4F404EC25B1BA09002CA0C7 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +166,8 @@
 				F489F18B25B252C2006CBA98 /* SectionView.swift */,
 				F48B43B225B6988A00D22021 /* TitleView.swift */,
 				F48B43B825B69B6100D22021 /* ProductItemView.swift */,
+				F4F23DD225BEE80500729FBA /* BrandItemView.swift */,
+				F4F23DD525BEE8E700729FBA /* BrandGridView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -170,6 +178,7 @@
 				F45B001725B1C6270030024D /* Player.swift */,
 				F45B002525B2487E0030024D /* Category.swift */,
 				F48B43B525B69A7000D22021 /* Product.swift */,
+				F4F23DCF25BEE75D00729FBA /* Brand.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -264,16 +273,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				F45B001B25B1C68D0030024D /* CodableBundleExtension.swift in Sources */,
+				F4F23DD025BEE75D00729FBA /* Brand.swift in Sources */,
 				F4AD125225AFB0C6008B7F2C /* ContentView.swift in Sources */,
 				F45B001325B1BFDA0030024D /* LogoView.swift in Sources */,
 				F4F404ED25B1BA09002CA0C7 /* FooterView.swift in Sources */,
 				F45B002125B1C8EC0030024D /* FeateredTabView.swift in Sources */,
+				F4F23DD625BEE8E700729FBA /* BrandGridView.swift in Sources */,
 				F48B43B925B69B6100D22021 /* ProductItemView.swift in Sources */,
 				F45B001E25B1C8280030024D /* FeaturedItemView.swift in Sources */,
 				F4AD125025AFB0C6008B7F2C /* TouchdownApp.swift in Sources */,
 				F489F18925B25106006CBA98 /* CategoryGridView.swift in Sources */,
 				F45B001825B1C6270030024D /* Player.swift in Sources */,
 				F48B43B625B69A7000D22021 /* Product.swift in Sources */,
+				F4F23DD325BEE80500729FBA /* BrandItemView.swift in Sources */,
 				F4AD127425AFB58B008B7F2C /* Constant.swift in Sources */,
 				F489F18C25B252C2006CBA98 /* SectionView.swift in Sources */,
 				F45B002925B24A640030024D /* CategoryItemView.swift in Sources */,
