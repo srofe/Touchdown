@@ -27,7 +27,11 @@ struct ProductDetailView: View {
                 Spacer()
             }
             .padding(.horizontal)
-            .background(Color.white)
+            .background(
+                Color.white
+                    .clipShape(CustomShape())
+                    .padding(.top, -105)
+            )
         }
         .ignoresSafeArea(.all, edges: .all)
         .background(
