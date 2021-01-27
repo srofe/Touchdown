@@ -36,15 +36,17 @@ struct RatingsSizesDetailView: View {
                     .foregroundColor(colourGrey)
                 HStack(alignment: .center, spacing: 5) {
                     ForEach(sizes, id: \.self) { size in
-                        Text(size)
-                            .font(.footnote)
-                            .fontWeight(.heavy)
-                            .foregroundColor(colourGrey)
-                            .frame(width: 28, height: 28, alignment: .center)
-                            .background(
-                                RoundedRectangle(cornerRadius: 5)
-                                    .stroke(colourGrey, lineWidth: 2)
-                            )
+                        Button(action: {}) {
+                            Text(size)
+                                .font(.footnote)
+                                .fontWeight(.heavy)
+                                .foregroundColor(colourGrey)
+                                .frame(width: 28, height: 28, alignment: .center)
+                                .background(
+                                    RoundedRectangle(cornerRadius: 5)
+                                        .stroke(colourGrey, lineWidth: 2)
+                                )
+                        }
                     }
                 }
             }
