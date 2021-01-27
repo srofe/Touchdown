@@ -15,6 +15,8 @@ struct ProductDetailView: View {
                 .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
             HeaderDetailView()
                 .padding(.horizontal)
+            TopPartDetailView()
+                .padding(.horizontal)
             Spacer()
         }
         .ignoresSafeArea(.all, edges: .all)
