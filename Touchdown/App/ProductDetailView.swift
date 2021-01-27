@@ -13,7 +13,8 @@ struct ProductDetailView: View {
             NavigationBarDetailView()
                 .padding(.horizontal)
                 .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
-            Text(sampleProduct.name)
+            HeaderDetailView()
+                .padding(.horizontal)
             Spacer()
         }
         .ignoresSafeArea(.all, edges: .all)
