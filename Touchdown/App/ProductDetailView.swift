@@ -28,6 +28,8 @@ struct ProductDetailView: View {
                         .foregroundColor(.gray)
                         .multilineTextAlignment(.leading)
                 }
+                QuantityFavouriteDetailView()
+                    .padding(.vertical, 10)
                 Spacer()
             }
             .padding(.horizontal)
