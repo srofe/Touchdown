@@ -10,6 +10,7 @@
 		F4202EE325C11082001AFC25 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EE225C11082001AFC25 /* NavigationBarDetailView.swift */; };
 		F4202EE625C111DC001AFC25 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EE525C111DC001AFC25 /* HeaderDetailView.swift */; };
 		F4202EE925C1130F001AFC25 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EE825C1130F001AFC25 /* TopPartDetailView.swift */; };
+		F4202EEC25C116E2001AFC25 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EEB25C116E2001AFC25 /* CustomShape.swift */; };
 		F45B001025B1BE4D0030024D /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B000F25B1BE4D0030024D /* NavigationBarView.swift */; };
 		F45B001325B1BFDA0030024D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B001225B1BFDA0030024D /* LogoView.swift */; };
 		F45B001825B1C6270030024D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B001725B1C6270030024D /* Player.swift */; };
@@ -43,6 +44,7 @@
 		F4202EE225C11082001AFC25 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
 		F4202EE525C111DC001AFC25 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		F4202EE825C1130F001AFC25 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
+		F4202EEB25C116E2001AFC25 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		F45B000F25B1BE4D0030024D /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		F45B001225B1BFDA0030024D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		F45B001725B1C6270030024D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				F4AD127325AFB58B008B7F2C /* Constant.swift */,
+				F4202EEB25C116E2001AFC25 /* CustomShape.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				F4F23DD325BEE80500729FBA /* BrandItemView.swift in Sources */,
 				F4AD127425AFB58B008B7F2C /* Constant.swift in Sources */,
 				F489F18C25B252C2006CBA98 /* SectionView.swift in Sources */,
+				F4202EEC25C116E2001AFC25 /* CustomShape.swift in Sources */,
 				F45B002925B24A640030024D /* CategoryItemView.swift in Sources */,
 				F45B001025B1BE4D0030024D /* NavigationBarView.swift in Sources */,
 				F45B002625B2487E0030024D /* Category.swift in Sources */,
