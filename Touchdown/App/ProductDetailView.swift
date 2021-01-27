@@ -30,7 +30,8 @@ struct ProductDetailView: View {
                 }
                 QuantityFavouriteDetailView()
                     .padding(.vertical, 10)
-                Spacer()
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
             }
             .padding(.horizontal)
             .background(
