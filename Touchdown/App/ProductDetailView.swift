@@ -17,7 +17,15 @@ struct ProductDetailView: View {
                 .padding(.horizontal)
             TopPartDetailView()
                 .padding(.horizontal)
-            Spacer()
+            VStack(alignment: .center, spacing: 0) {
+                ScrollView(.vertical, showsIndicators: false) {
+                    Text(sampleProduct.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundColor(.gray)
+                        .multilineTextAlignment(.leading)
+                }
+                Spacer()
+            }
         }
         .ignoresSafeArea(.all, edges: .all)
         .background(
