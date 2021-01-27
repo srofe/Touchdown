@@ -26,6 +26,8 @@ struct ProductDetailView: View {
                 }
                 Spacer()
             }
+            .padding(.horizontal)
+            .background(Color.white)
         }
         .ignoresSafeArea(.all, edges: .all)
         .background(
