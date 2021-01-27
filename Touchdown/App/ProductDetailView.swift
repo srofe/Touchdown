@@ -17,6 +17,7 @@ struct ProductDetailView: View {
                 .padding(.horizontal)
             TopPartDetailView()
                 .padding(.horizontal)
+                .zIndex(1)
             VStack(alignment: .center, spacing: 0) {
                 ScrollView(.vertical, showsIndicators: false) {
                     Text(sampleProduct.description)
@@ -33,6 +34,7 @@ struct ProductDetailView: View {
                     .padding(.top, -105)
             )
         }
+        .zIndex(0)
         .ignoresSafeArea(.all, edges: .all)
         .background(
             Color(
