@@ -11,6 +11,7 @@
 		F4202EE625C111DC001AFC25 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EE525C111DC001AFC25 /* HeaderDetailView.swift */; };
 		F4202EE925C1130F001AFC25 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EE825C1130F001AFC25 /* TopPartDetailView.swift */; };
 		F4202EEC25C116E2001AFC25 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EEB25C116E2001AFC25 /* CustomShape.swift */; };
+		F4202EEF25C11A06001AFC25 /* RatingsSizesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4202EEE25C11A06001AFC25 /* RatingsSizesDetailView.swift */; };
 		F45B001025B1BE4D0030024D /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B000F25B1BE4D0030024D /* NavigationBarView.swift */; };
 		F45B001325B1BFDA0030024D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B001225B1BFDA0030024D /* LogoView.swift */; };
 		F45B001825B1C6270030024D /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45B001725B1C6270030024D /* Player.swift */; };
@@ -45,6 +46,7 @@
 		F4202EE525C111DC001AFC25 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		F4202EE825C1130F001AFC25 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		F4202EEB25C116E2001AFC25 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
+		F4202EEE25C11A06001AFC25 /* RatingsSizesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsSizesDetailView.swift; sourceTree = "<group>"; };
 		F45B000F25B1BE4D0030024D /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		F45B001225B1BFDA0030024D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		F45B001725B1C6270030024D /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -163,6 +165,7 @@
 				F4202EE225C11082001AFC25 /* NavigationBarDetailView.swift */,
 				F4202EE525C111DC001AFC25 /* HeaderDetailView.swift */,
 				F4202EE825C1130F001AFC25 /* TopPartDetailView.swift */,
+				F4202EEE25C11A06001AFC25 /* RatingsSizesDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				F4F404ED25B1BA09002CA0C7 /* FooterView.swift in Sources */,
 				F45B002125B1C8EC0030024D /* FeateredTabView.swift in Sources */,
 				F4F23DD625BEE8E700729FBA /* BrandGridView.swift in Sources */,
+				F4202EEF25C11A06001AFC25 /* RatingsSizesDetailView.swift in Sources */,
 				F48B43B925B69B6100D22021 /* ProductItemView.swift in Sources */,
 				F4F23DDB25BEEB2900729FBA /* ProductDetailView.swift in Sources */,
 				F4202EE325C11082001AFC25 /* NavigationBarDetailView.swift in Sources */,
