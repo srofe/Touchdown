@@ -12,13 +12,23 @@ struct QuantityFavouriteDetailView: View {
 
     var body: some View {
         HStack(alignment: .center, spacing: 6) {
-            Button(action: { counter > 0 ? counter -= 1 : nil }) {
+            Button(action: {
+                if counter > 0 {
+                    feedback.impactOccurred()
+                    counter -= 1
+                }
+            }) {
                 Image(systemName: "minus.circle")
             }
             Text("\(counter)")
                 .fontWeight(.semibold)
                 .frame(minWidth: 36)
-            Button(action: { counter < 100 ? counter += 1 : nil }) {
+            Button(action: {
+                if counter < 100 {
+                    feedback.impactOccurred()
+                    counter += 1
+                }
+            }) {
                 Image(systemName: "plus.circle")
             }
             Spacer()
