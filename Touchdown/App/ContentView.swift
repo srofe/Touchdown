@@ -51,7 +51,7 @@ struct ContentView: View {
             }
                 .ignoresSafeArea(.all, edges: .top)
             } else {
-                ProductDetailView()
+                ProductDetailView(product: shop.selectedProduct ?? sampleProduct)
             }
         }
     }
