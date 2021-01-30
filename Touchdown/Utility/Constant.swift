@@ -24,3 +24,6 @@ let rowSpacing: CGFloat = 10
 var gridLayout: [GridItem] {
     Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2)
 }
+
+// MARK:- Haptic feedback
+let feedback = UIImpactFeedbackGenerator(style: .medium)
